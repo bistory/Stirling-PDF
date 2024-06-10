@@ -95,7 +95,7 @@ dependencies {
     implementation 'org.yaml:snakeyaml:2.2'
     
     // Exclude Tomcat and include Jetty
-    implementation('org.springframework.boot:spring-boot-starter-web:3.2.4') {
+    implementation('org.springframework.boot:spring-boot-starter-web:3.3.0') {
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
     }
     implementation 'org.springframework.boot:spring-boot-starter-jetty:3.2.4'
